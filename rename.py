@@ -1,3 +1,9 @@
+# -*- coding: utf-8 -*-
+# python 3.x
+# Prepend a sequential index to files inside folder
+# Usage: In interpreter- rename(r'/path/to/folder', '*.filetype(eg. *.mp3)', '%s')
+##################################################################################
+
 import glob, os
 
 
